@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contacts Page</title>
+        <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/tjl8mss.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+    <div class="grid-container-six">
+            <div class="item item-1">
+                <nav>
+            <ul class="sidebar-1">
+                <il onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                    </svg></a> </il>
+                <il><a href="about.html">About</a> </il>
+                <il><a href="index.html">Back Home</a> </il>
+            </ul>
+            <ul>
+                <il class="hideOnMobile"><a href="index.html">Back Home</a> </il>
+                <il class="hideOnMobile"><a href="about.html">About</a> </il>
+                <il class="menu-botton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg></a></il>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar-1')
+                sidebar.style.display = 'flex'
+
+            }
+
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar-1')
+                sidebar.style.display = 'none'
+
+            }
+        </script>
+               
+            </div>
+             <div class="item item-2">
+                <h1 class="header-2">Contacts</h1>
+            </div>
+            </div>
+
+          <div class="grid-container-seven">
+            <div class="item item7-1">
+                <a href="https://www.instagram.com/https._chantel?igsh=dmVqM3V0Ym10MzM%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+               <img src="Conmpnents/SVGs/instagram.svg" width="75%">
+               </a>
+            </div>
+            <div class="item item7-2">
+            <a href="mailto:chantelt@ocadu.ca" target="_blank" rel="noopener noreferrer">
+                <img src="Conmpnents/SVGs/envelope-at.svg" width="75%">
+            </a>
+            </div>          
+            <div class="item item7-3">
+                <a href="https://x.com/OCAD" target="_blank" rel="noopener noreferrer">
+                    <img src="Conmpnents/SVGs/twitter-x.svg" width="75%">
+                </a>
+            </div> 
+        </div>
+
+    <div class="grid-container-four">
+    
+    <div class="item4-1">
+    <p class="footer-text">Author: chantel tandarich<br>
+        &copy; copyright reserved to chantel tandarich productions<br>
+        Email: <a href="chantelt@ocadu.ca" target="_blank" rel="noopener noreferrer">chantelt@ocadu.ca</a>
+    </p>
+    </div>
+        <div class="item4-2">
+            <ul class="footer-text">
+                <li>
+                    <a href="#">Go to top</a>
+                </li>
+                <li><a href="about.html" target="_blank" rel="noopener noreferrer">About</a></li>
+                <li><a href="contacts.html" target="_blank" rel="noopener noreferrer">Contacts</a></li>
+            </ul>
+        </div>
+            <div class="item4-3">
+                <ul>
+                    <li>
+                <a href="https://www.instagram.com/ocaduniversity/" target="_blank" rel="noopener noreferrer"> 
+                    <img src="Conmpnents/SVGs/instagram.svg" height="40px" width="40px">
+                    </a>
+                     </li>
+                     <li>
+                        <a href="mailto:chantelt@ocadu.ca" target="_blank" rel="noopener noreferrer">
+                             <img src="Conmpnents/SVGs/envelope-at.svg" height="40px" width="40px">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://x.com/OCAD" target="_blank" rel="noopener noreferrer">
+                            <img src="Conmpnents/SVGs/twitter-x.svg" height="40px" width="40px">
+                        </a>
+                     </li>
+                </ul>
+                
+
+            </div>
+              
+                
+                
+                           
+            </div>
+    </body>
+</html>
